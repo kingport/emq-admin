@@ -12,7 +12,7 @@ export default [
     path: '/admin',
     name: '管理页',
     icon: 'crown',
-    access: 'canAdmin',
+    // access: 'canAdmin',
     component: './Admin',
     routes: [
       { path: '/admin/sub-page', name: '二级管理页', icon: 'smile', component: './Welcome' },
