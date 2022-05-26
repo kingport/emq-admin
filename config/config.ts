@@ -7,7 +7,8 @@ import proxy from './proxy';
 import routes from './routes';
 const { REACT_APP_ENV } = process.env;
 export default defineConfig({
-  hash: false,
+  hash: true,
+  history: {type: 'hash'},
   antd: {},
   dva: {
     hmr: true,
