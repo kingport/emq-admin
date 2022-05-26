@@ -12,7 +12,7 @@ export default defineConfig({
   dva: {
     hmr: true,
   },
-  publicPath: '/emq-admin',
+  publicPath: '/emq-admin/',
   layout: {
     // https://umijs.org/zh-CN/plugins/plugin-layout
     locale: true,
